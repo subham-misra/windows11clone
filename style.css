@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('bg.jpeg'); 
+    background-size: cover; 
+    overflow: hidden;
+    height: 100vh;
+}
+
+.taskbar{
+    background-color: #f3f3f3;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    z-index: 110;
+    justify-content: center;
+}#vid{
+    position: absolute;
+    top: 0%;
+}
+
+.startmenu{
+    position: absolute; 
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in; 
+}
+
+.startmenu img{
+    border-radius: 8px;
+}
+
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 85%;
+}  
+.icons{
+    color: white;
+    margin: 3px;
+}.icons .folder{
+    width: 45px;
+    height: 40px;
+}
+#btn{
+    border: none;
+    background-color: white;
+    color: rgb(63, 163, 230);
+    border-radius: 50px;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    width: 60px;
+    height: 29px;
+
+}#btn:hover{
+    box-shadow: 0 0 5px #03e9f4 , 0 0 25px  #03e9f4, 0 0 50px  #03e9f4 ,0 0 200px #03e9f4 ;
+}
